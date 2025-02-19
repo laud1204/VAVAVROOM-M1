@@ -1,4 +1,6 @@
 package commun;
 
-public class ServeurDistant {
+public interface ServeurDistant {
+    void ajouterVehicule(Vehicule any);
+    void mettreAJourPosition(Vehicule any);
 }
